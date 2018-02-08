@@ -1,0 +1,77 @@
+Writing this to a file.
+Writing this to a file 2.
+Execution Time for Matrix M * N * K = 3 * 3 * 3 * 
+
+Multiplication Execution Time without checksum = 393.209 ms
+Writing this to a file.
+Writing this to a file 2.
+Execution Time for Matrix M * N * K = 3 * 3 * 3 * 
+
+Writing this to a file.
+Writing this to a file 2.
+Execution Time for Matrix M * N * K = 3 * 3 * 3 * 
+
+Writing this to a file.
+Writing this to a file 2.
+Execution Time for Matrix M * N * K = 3 * 3 * 3 * 
+
+Writing this to a file.
+Writing this to a file 2.
+Execution Time for Matrix M * N * K = 3 * 3 * 3 * 
+
+Writing this to a file.
+Writing this to a file 2.
+Execution Time for Matrix M * N * K = 3 * 3 * 3 * 
+
+Writing this to a file.
+Writing this to a file 2.
+Writing this to a file.
+Writing this to a file 2.
+Writing this to a file.
+Writing this to a file 2.
+Writing this to a file.
+Writing this to a file 2.
+Writing this to a file.
+Writing this to a file 2.
+Writing this to a file.
+Writing this to a file 2.
+Writing this to a file.
+Writing this to a file 2.
+Writing this to a file.
+Writing this to a file 2.
+Writing this to a file.
+Writing this to a file 2.
+Writing this to a file.
+Writing this to a file 2.
+Writing this to a file.
+Writing this to a file 2.
+Writing this to a file.
+Writing this to a file 2.
+Writing this to a file.
+Writing this to a file 2.
+Writing this to a file.
+Writing this to a file 2.
+Writing this to a file.
+Writing this to a file 2.
+Writing this to a file.
+Writing this to a file 2.
+Writing this to a file.
+Writing this to a file 2.
+Writing this to a file.
+Writing this to a file 2.
+Writing this to a file.
+Writing this to a file 2.
+Writing this to a file.
+Writing this to a file 2.
+Writing this to a file.
+Writing this to a file 2.
+Writing this to a file.
+Writing this to a file 2.
+Writing this to a file.
+Writing this to a file 2.
+Writing this to a file.
+Writing this to a file 2.
+Writing this to a file.
+Writing this to a file 2.
+Writing this to a file.
+Writing this to a file 2.

@@ -1,0 +1,46 @@
+﻿  
+  C:\Users\hadiz\source\repos\abft_mm\abft_mm>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile   -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\abft.cpp.obj "E:\Google Drive\UCR\Reseach\Matrix Multiplication\cuda_cublas_curand_thrust_imixed _with_jieyang\abft.cpp" -clean 
+  abft.cpp
+  
+  C:\Users\hadiz\source\repos\abft_mm\abft_mm>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile   -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\dgemmFT_full_chk.cpp.obj "E:\Google Drive\UCR\Reseach\Matrix Multiplication\cuda_cublas_curand_thrust_imixed _with_jieyang\dgemmFT_full_chk.cpp" -clean 
+  dgemmFT_full_chk.cpp
+  
+  C:\Users\hadiz\source\repos\abft_mm\abft_mm>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile   -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\hadiz\source\repos\abft_mm\abft_mm\kernel.cu" -clean 
+  kernel.cu
+  Compiling CUDA source file E:\Google Drive\UCR\Reseach\Matrix Multiplication\cuda_cublas_curand_thrust_imixed _with_jieyang\abft.cpp...
+  Compiling CUDA source file kernel.cu...
+  Compiling CUDA source file E:\Google Drive\UCR\Reseach\Matrix Multiplication\cuda_cublas_curand_thrust_imixed _with_jieyang\dgemmFT_full_chk.cpp...
+  
+  C:\Users\hadiz\source\repos\abft_mm\abft_mm>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\abft.cpp.obj "E:\Google Drive\UCR\Reseach\Matrix Multiplication\cuda_cublas_curand_thrust_imixed _with_jieyang\abft.cpp" 
+  
+  C:\Users\hadiz\source\repos\abft_mm\abft_mm>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\hadiz\source\repos\abft_mm\abft_mm\kernel.cu" 
+  
+  C:\Users\hadiz\source\repos\abft_mm\abft_mm>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\dgemmFT_full_chk.cpp.obj "E:\Google Drive\UCR\Reseach\Matrix Multiplication\cuda_cublas_curand_thrust_imixed _with_jieyang\dgemmFT_full_chk.cpp" 
+C:/Users/hadiz/source/repos/abft_mm/abft_mm/kernel.cu(543): warning : variable "elapsedTime" was declared but never referenced
+  abft.cpp
+  dgemmFT_full_chk.cpp
+C:/Users/hadiz/source/repos/abft_mm/abft_mm/kernel.cu(543): warning : variable "elapsedTime" was declared but never referenced
+  kernel.cu
+C:/Users/hadiz/source/repos/abft_mm/abft_mm/kernel.cu(278): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:/Users/hadiz/source/repos/abft_mm/abft_mm/kernel.cu(302): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:/Users/hadiz/source/repos/abft_mm/abft_mm/kernel.cu(303): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:/Users/hadiz/source/repos/abft_mm/abft_mm/kernel.cu(322): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:/Users/hadiz/source/repos/abft_mm/abft_mm/kernel.cu(345): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:/Users/hadiz/source/repos/abft_mm/abft_mm/kernel.cu(349): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:/Users/hadiz/source/repos/abft_mm/abft_mm/kernel.cu(368): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:/Users/hadiz/source/repos/abft_mm/abft_mm/kernel.cu(391): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:/Users/hadiz/source/repos/abft_mm/abft_mm/kernel.cu(411): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:/Users/hadiz/source/repos/abft_mm/abft_mm/kernel.cu(546): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:/Users/hadiz/source/repos/abft_mm/abft_mm/kernel.cu(595): warning C4018: '<': signed/unsigned mismatch
+C:/Users/hadiz/source/repos/abft_mm/abft_mm/kernel.cu(598): warning C4018: '<': signed/unsigned mismatch
+C:/Users/hadiz/source/repos/abft_mm/abft_mm/kernel.cu(601): warning C4018: '<': signed/unsigned mismatch
+C:/Users/hadiz/source/repos/abft_mm/abft_mm/kernel.cu(604): warning C4018: '<': signed/unsigned mismatch
+C:/Users/hadiz/source/repos/abft_mm/abft_mm/kernel.cu(609): warning C4018: '<': signed/unsigned mismatch
+C:/Users/hadiz/source/repos/abft_mm/abft_mm/kernel.cu(543): warning C4101: 'elapsedTime': unreferenced local variable
+c:\users\hadiz\source\repos\abft_mm\abft_mm\kernel.cu(328): warning C4700: uninitialized local variable 'col_chkC_ld' used
+  abft_mm.vcxproj -> C:\Users\hadiz\source\repos\abft_mm\x64\Debug\abft_mm.exe
+  abft_mm.vcxproj -> C:\Users\hadiz\source\repos\abft_mm\x64\Debug\abft_mm.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart*.dll" "C:\Users\hadiz\source\repos\abft_mm\x64\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart32_91.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart64_91.dll
+          2 file(s) copied.
